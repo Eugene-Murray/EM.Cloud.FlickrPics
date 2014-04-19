@@ -1,4 +1,42 @@
 /* ************************************** */
+/* Masonry JS  */
+/* ************************************** */
+
+(function($) {
+
+$.fn.randomize = function(childElem) {
+  return this.each(function() {
+      var $this = $(this);
+      var elems = $this.children();
+	  console.log('!!!!!!!!!!!!!!!!!!!');
+	  console.log($this);
+
+      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+
+      $this.remove(childElem);  
+
+      for(var i=0; i < elems.length; i++)
+        $this.append(elems[i]);      
+
+  });    
+}
+})(jQuery);
+
+
+$(document).ready(function(){
+			// initialize Masonry
+				var $container = $('#container').masonry();
+			// layout Masonry again after all images have loaded
+				$container.imagesLoaded( function() {
+					$container.masonry();
+					//var $items = $('#item')
+					//$($('#container')).randomize($items).masonry();
+				});
+				
+				
+});
+
+/* ************************************** */
 /* Way Point JS  */
 /* ************************************** */
 

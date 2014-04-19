@@ -5,4 +5,9 @@
 <file name="default_thumbnail.gif" server="50.62.160.247" local="130397384313791980" remote="130416961200000000" Dst="2" />
 <file name="loader.gif" server="50.62.160.247" local="130397384313671973" remote="130416961200000000" Dst="2" />
 <file name="sprite.png" server="50.62.160.247" local="130397384313551966" remote="130416961200000000" Dst="2" />
+<file name="btnNext.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384313731977" remote="130423014600000000" Dst="2" />
+<file name="btnPrevious.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384313601969" remote="130423014600000000" Dst="2" />
+<file name="default_thumbnail.gif" server="50.62.160.247/httpdocs/adventurehop/" local="130397384313791980" remote="130423014600000000" Dst="2" />
+<file name="loader.gif" server="50.62.160.247/httpdocs/adventurehop/" local="130397384313671973" remote="130423014600000000" Dst="2" />
+<file name="sprite.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384313551966" remote="130423014600000000" Dst="2" />
 </dwsync>

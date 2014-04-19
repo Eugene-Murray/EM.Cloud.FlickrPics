@@ -9,4 +9,13 @@
 <file name="default_thumbnail.gif" server="50.62.160.247" local="130397384311421845" remote="130416962400000000" Dst="2" />
 <file name="loader.gif" server="50.62.160.247" local="130397384311241834" remote="130416962400000000" Dst="2" />
 <file name="sprite.png" server="50.62.160.247" local="130397384311121827" remote="130416962400000000" Dst="2" />
+<file name="btnNext.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311301838" remote="130423015800000000" Dst="2" />
+<file name="btnPrevious.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311181831" remote="130423015800000000" Dst="2" />
+<file name="contentPatternBottom.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311471847" remote="130423015800000000" Dst="2" />
+<file name="contentPatternLeft.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311361841" remote="130423015800000000" Dst="2" />
+<file name="contentPatternRight.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311531851" remote="130423015800000000" Dst="2" />
+<file name="contentPatternTop.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311971876" remote="130423015800000000" Dst="2" />
+<file name="default_thumbnail.gif" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311421845" remote="130423015800000000" Dst="2" />
+<file name="loader.gif" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311241834" remote="130423016400000000" Dst="2" />
+<file name="sprite.png" server="50.62.160.247/httpdocs/adventurehop/" local="130397384311121827" remote="130423016400000000" Dst="2" />
 </dwsync>

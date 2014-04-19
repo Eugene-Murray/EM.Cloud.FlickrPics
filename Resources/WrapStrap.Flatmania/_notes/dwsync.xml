@@ -4,4 +4,8 @@
 <file name="credits.txt" server="50.62.160.247" local="130397384302121313" remote="130416961800000000" Dst="2" />
 <file name="download.txt" server="50.62.160.247" local="130397384301781293" remote="130416961800000000" Dst="2" />
 <file name="license.txt" server="50.62.160.247" local="130397384301951303" remote="130416961800000000" Dst="2" />
+<file name="changelog.txt" server="50.62.160.247/httpdocs/adventurehop/" local="130397384302041308" remote="130423015200000000" Dst="2" />
+<file name="credits.txt" server="50.62.160.247/httpdocs/adventurehop/" local="130397384302121313" remote="130423015200000000" Dst="2" />
+<file name="download.txt" server="50.62.160.247/httpdocs/adventurehop/" local="130397384301781293" remote="130423015200000000" Dst="2" />
+<file name="license.txt" server="50.62.160.247/httpdocs/adventurehop/" local="130397384301951303" remote="130423015200000000" Dst="2" />
 </dwsync>
