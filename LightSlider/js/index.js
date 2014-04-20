@@ -7,7 +7,7 @@
 	  loop:true
     });
 	
-	$(".grid-img-link").prettyPhoto({
+	$(".prettyphoto").prettyPhoto({
 	   overlay_gallery: false, social_tools: false
 	});  
   });
