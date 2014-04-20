@@ -8,7 +8,9 @@
     });
 	
 	$(".prettyphoto").prettyPhoto({
-	   overlay_gallery: false, social_tools: false
+	   overlay_gallery: false, 
+	   social_tools: false,
+	   slideshow: 100
 	});  
   });
   
