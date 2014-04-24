@@ -31,6 +31,13 @@ $.fn.randomize = function(childElem) {
 
 
 $(document).ready(function(){
+
+			var $container = $('#container').masonry();
+			// layout Masonry again after all images have loaded
+				$container.imagesLoaded( function() {
+					$container.masonry();
+				});
+
 	
 jQuery(".prettyphoto").prettyPhoto({
 				overlay_gallery: false, social_tools: false
