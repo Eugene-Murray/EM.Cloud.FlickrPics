@@ -1,8 +1,15 @@
+
+
+(function($) {
+	ko.applyBindings(new AdventureHop.IndexVM());
+})(jQuery);
+
+
 /* ************************************** */
 /* Masonry JS  */
 /* ************************************** */
 
-(function($) {
+/*(function($) {
 
 $.fn.randomize = function(childElem) {
   return this.each(function() {
@@ -20,18 +27,23 @@ $.fn.randomize = function(childElem) {
 
   });    
 }
-})(jQuery);
+})(jQuery);*/
 
 
 $(document).ready(function(){
-			// initialize Masonry
-				var $container = $('#container').masonry();
-			// layout Masonry again after all images have loaded
-				$container.imagesLoaded( function() {
-					$container.masonry();
-					//var $items = $('#item')
-					//$($('#container')).randomize($items).masonry();
-				});
+	
+jQuery(".prettyphoto").prettyPhoto({
+				overlay_gallery: false, social_tools: false
+			});
+		
+			/* Isotype */
+
+			// cache container
+			var $container = $('#portfolio');
+			// initialize isotope
+			$container.isotope({
+				// options...
+			});
 				
 				
 });
