@@ -1,4 +1,6 @@
-ConsoleApp.AjaxHelper = function(config)
+var AdventureHop = window.AdventureHop = window.AdventureHop || {};
+
+AdventureHop.AjaxHelper = function(config)
 {
 	return $.ajax(
 	{
@@ -8,6 +10,6 @@ ConsoleApp.AjaxHelper = function(config)
 		contentType: "application/json;charset=utf-8",
 		data: config.Data,
 		cache: false,
-		dataType: jsonp
+		crossDomain: true
 	});
 };
